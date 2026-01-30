@@ -20,38 +20,38 @@ public enum DSColors {
     // MARK: Brand Colors
     
     /// Primary brand color
-    public static let primary = Color("DSPrimary", bundle: .module)
+    public static let primary = Color(hex: "007AFF")
     
-    /// Secondary color
-    public static let secondary = Color("DSSecondary", bundle: .module)
+    /// Secondary brand color
+    public static let secondary = Color(hex: "5856D6")
     
-    // MARK: Semantic Colors
+    // MARK: - Semantic Colors
 
-    /// Success states
-    public static let success = Color("DSSuccess", bundle: .module)
+    /// Success states and confirmations
+    public static let success = Color(hex: "34C759")
     
     /// Warning states
-    public static let warning = Color("DSWarning", bundle: .module)
-    
+    public static let warning = Color(hex: "FF9500")
+
     /// Destructive actions
-    public static let destructive = Color("DSDestructive", bundle: .module)
+    public static let destructive = Color(hex: "FF3B30")
     
     // MARK: Neutral Colors
     
     /// Primary text color
-    public static let textPrimary = Color("DSTextPrimary", bundle: .module)
+    public static let textPrimary = Color(hex: "000000")
     
     /// Secondary/muted text color
-    public static let textSecondary = Color("DSTextSecondary", bundle: .module)
+    public static let textSecondary = Color(hex: "6B7280")
     
     /// Primary background
-    public static let backgroundPrimary = Color("DSBackgroundPrimary", bundle: .module)
+    public static let backgroundPrimary = Color(hex: "FFFFFF")
     
     /// Secondary/elevated background
-    public static let backgroundSecondary = Color("DSBackgroundSecondary", bundle: .module)
+    public static let backgroundSecondary = Color(hex: "F3F4F6")
     
     /// Border color
-    public static let border = Color("DSBorder", bundle: .module)
+    public static let border = Color(hex: "E5E7EB")
 }
 
 // MARK: - Fallback Colors (Used when asset catalog colors aren't set up)
