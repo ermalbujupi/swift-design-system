@@ -24,10 +24,11 @@ public struct DSToggle: View {
     
     // MARK: - Properties
     
+    let labelPosition: LabelPosition
+    
     @Binding private var isOn: Bool
     
     private let label: String
-    private let labelPosition: LabelPosition
     
     // MARK: - Init
     

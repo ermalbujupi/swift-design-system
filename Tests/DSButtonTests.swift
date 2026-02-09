@@ -10,6 +10,7 @@ import XCTest
 import SwiftUI
 @testable import SwiftUIDesignSystem
 
+@MainActor
 final class DSButtonTests: XCTestCase {
     
     func testButtonInitialization() {

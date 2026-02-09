@@ -9,7 +9,7 @@ import SwiftUI
 
 public struct DSText: View {
     
-    public enum TextStyle {
+    public enum TextStyle: Equatable {
         case largeTitle
         case title1
         case title2
@@ -22,7 +22,7 @@ public struct DSText: View {
         case caption
     }
     
-    public enum ColorStyle {
+    public enum ColorStyle: Equatable {
         case primary
         case secondary
         case destructive
@@ -31,9 +31,11 @@ public struct DSText: View {
     }
     
     // MARK: - Properties
+    
+    let style: TextStyle
+    let color: ColorStyle
+    
     private let text: String
-    private let style: TextStyle
-    private let color: ColorStyle
     
     // MARK: - Initialization
     

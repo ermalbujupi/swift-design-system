@@ -23,11 +23,12 @@ public struct DSTextField: View {
     }
     
     // MARK: - Properties
-    
+
     @Binding private var text: String
-    
+
+    let style: Style
+
     private let placeholder: String
-    private let style: Style
     private let label: String?
     private let errorMessage: String?
     
